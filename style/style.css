@@ -1,0 +1,625 @@
+:root {
+  --qora: rgba(0, 0, 0, 1);
+  --btnColor: rgba(153, 166, 1);
+  --spanColor: rgba(158, 140, 108, 1);
+  --bgColor: rgba(158, 140, 108, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #000000;
+}
+
+.section,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1110px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background-image: linear-gradient(177deg, var(--bgColor) 88%, transparent 88% 100%);
+  height: 747px;
+  background-size: contain;
+  padding: 0 165px;
+  margin-bottom: 90px;
+}
+.home .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 180px;
+}
+.home .container .img {
+  position: relative;
+}
+.home .container .img .kolsa {
+  position: absolute;
+  top: 231px;
+  left: 245px;
+}
+.home .container .text p {
+  width: 635px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: var(--secondary, #9e8c6c);
+}
+.home .container .text h1 {
+  width: 635px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-family: Playfair Display;
+  font-size: 126px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112px;
+  letter-spacing: -2.172px;
+  padding-bottom: 15px;
+}
+.home .container .text button {
+  width: 225px;
+  height: 60px;
+  flex-shrink: 0;
+  background: var(--primary, #0699a6);
+}
+.home .container .text button a {
+  color: #fff;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.menu {
+  padding: 0 165px;
+  display: flex;
+  gap: 125px;
+  margin-bottom: 80px;
+}
+.Marketing {
+  width: 420px;
+
+}
+span {
+  color: var(--secondary, #9E8C6C);
+font-family: PT Sans Narrow;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2px;
+padding-bottom: 10px;
+}
+.design p {
+  color: var(--font-color, #000);
+font-family: PT Sans     ;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+padding-bottom: 150px;
+}
+.user b {
+  color: var(--font-color, #000);
+font-family: PT Sans Narrow;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px
+}
+.user p {
+  color: var(--font-color, #000);
+font-family: PT Sans Narrow;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+.user span  b{
+  color: var(--secondary, #9E8C6C);
+font-family: PT Sans Narrow;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+letter-spacing: 2px;
+}
+.bold {
+  color: var(--primary, #0699A6);
+font-family: PT Sans Narrow;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; 
+}
+.About {
+  width: 635px;
+}
+.Use h2 {
+color: var(--font-color, #000);
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 46px;
+padding-bottom: 20px;
+}
+.Use p {
+color: var(--font-color, #000);
+font-family: PT Sans Narrow;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+padding-bottom: 65px;
+}
+.inc {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.inc h2 {
+  width: 635px;
+color: var(--font-color, #000);
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 46px;
+padding-bottom: 16px;
+}
+.magni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.magni h6 {
+  width: 400px;
+color: var(--secondary, #9E8C6C);
+font-family: PT Sans Narrow;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+.magni p {
+  width: 295px;
+color: var(--font-color, #000);
+text-align: right;
+font-family: PT Sans Narrow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.inc p {
+color: var(--font-color, #000);
+font-family: PT Sans Narrow;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 71px;
+  height: 10px;
+  background: #0699A6;
+}
+.enec {
+  color: var(--font-color, #000);
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 46px;
+padding-top: 50px;
+}
+.james {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.james h6 {
+  width: 460px;
+color: var(--secondary, #9E8C6C);
+font-family: PT Sans Narrow;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+.james p {
+  width: 225px;
+color: var(--font-color, #000);
+text-align: right;
+font-family: PT Sans Narrow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.get {
+  background-image: linear-gradient(-3deg, var(--bgColor) 88%, transparent 88% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1440px;
+height: 547px;
+flex-shrink: 0;
+fill: var(--secondary, #9E8C6C);
+}
+.get h1 {
+  color: var(--font-color, #000);
+text-align: center;
+font-family: Playfair Display;
+font-size: 66px;
+font-style: normal;
+font-weight: 900;
+line-height: 82px; 
+padding-bottom: 40px;
+}
+.get p {
+  color: var(--primary, #0699A6);
+text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 46px;
+padding-bottom: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 428px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  p {
+    color: #000000;
+  }
+  
+  .section,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 375px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar .home {
+    background-image: linear-gradient(177deg, var(--bgColor) 88%, transparent 88% 100%);
+    height: 747px;
+    background-size: contain;
+    padding: 0 165px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .home .container {
+   display: block;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 180px;
+  }
+  .home .container .img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .home .container .img .kolsa {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 231px;
+    left: 245px;
+  }
+  .home .container .text p {
+    width: 635px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: var(--secondary, #9e8c6c);
+  }
+  .home .container .text h1 {
+    width: 635px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: Playfair Display;
+    font-size: 126px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 112px;
+    letter-spacing: -2.172px;
+    padding-bottom: 15px;
+  }
+  .home .container .text button {
+    width: 225px;
+    height: 60px;
+    flex-shrink: 0;
+    background: var(--primary, #0699a6);
+  }
+  .home .container .text button a {
+    color: #fff;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+  .menu {
+    padding: 0 165px;
+    display: flex;
+    gap: 125px;
+    margin-bottom: 80px;
+  }
+  .Marketing {
+    width: 420px;
+  
+  }
+  span {
+    color: var(--secondary, #9E8C6C);
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  }
+  .design p {
+    color: var(--font-color, #000);
+  font-family: PT Sans     ;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 150px;
+  }
+  .user b {
+    color: var(--font-color, #000);
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px
+  }
+  .user p {
+    color: var(--font-color, #000);
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  }
+  .user span  b{
+    color: var(--secondary, #9E8C6C);
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 2px;
+  }
+  .bold {
+    color: var(--primary, #0699A6);
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; 
+  }
+  .About {
+    width: 635px;
+  }
+  .Use h2 {
+  color: var(--font-color, #000);
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 46px;
+  padding-bottom: 20px;
+  }
+  .Use p {
+  color: var(--font-color, #000);
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 65px;
+  }
+  .inc {
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+  .inc h2 {
+    width: 635px;
+  color: var(--font-color, #000);
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 46px;
+  padding-bottom: 16px;
+  }
+  .magni {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .magni h6 {
+    width: 400px;
+  color: var(--secondary, #9E8C6C);
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; 
+  }
+  .magni p {
+    width: 295px;
+  color: var(--font-color, #000);
+  text-align: right;
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  }
+  .inc p {
+  color: var(--font-color, #000);
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  }
+  .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 71px;
+    height: 10px;
+    background: #0699A6;
+  }
+  .enec {
+    color: var(--font-color, #000);
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 46px;
+  padding-top: 50px;
+  }
+  .james {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .james h6 {
+    width: 460px;
+  color: var(--secondary, #9E8C6C);
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  }
+  .james p {
+    width: 225px;
+  color: var(--font-color, #000);
+  text-align: right;
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  }
+  .get {
+    background-image: linear-gradient(-3deg, var(--bgColor) 88%, transparent 88% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+  height: 547px;
+  flex-shrink: 0;
+  fill: var(--secondary, #9E8C6C);
+  }
+  .get h1 {
+    color: var(--font-color, #000);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 82px; 
+  padding-bottom: 40px;
+  }
+  .get p {
+    color: var(--primary, #0699A6);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 46px;
+  padding-bottom: 65px;
+  }
+  
+  
+  
+  
+  
+
+}
